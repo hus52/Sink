@@ -22,18 +22,6 @@ const { github } = useAppConfig()
           </p>
 
           <div class="mt-8 flex flex-wrap justify-center gap-4">
-            <Button
-              as-child
-              size="lg"
-            >
-              <a
-                :href="`${github}?tab=readme-ov-file#%EF%B8%8F-deployment`"
-                target="_blank"
-                :title="$t('home.cta.button')"
-              >
-                {{ $t('home.cta.button') }}
-              </a>
-            </Button>
 
             <Button
               as-child
