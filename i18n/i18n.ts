@@ -5,7 +5,7 @@ const locales: LocaleObject[] = [
     code: 'en-US',
     file: 'en-US.json',
     name: 'English',
-    emoji: '🇺🇸',
+    emoji: '🇺🇸'
   },
 
 ]
