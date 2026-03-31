@@ -59,34 +59,6 @@ const { hasUpdate, currentVersion, latestVersion } = useVersionCheck()
                 state === 'collapsed' ? 'flex-col items-center' : 'items-center',
               ]"
             >
-              <DropdownMenu>
-                <DropdownMenuTrigger as-child>
-                  <button
-                    class="
-                      flex size-8 items-center justify-center rounded-md
-                      hover:bg-sidebar-accent
-                      hover:text-sidebar-accent-foreground
-                    "
-                  >
-                    <Languages class="size-4" />
-                  </button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent
-                  :align="state === 'collapsed' ? 'start' : 'end'"
-                  :side="state === 'collapsed' ? 'right' : 'top'"
-                  class="min-w-min"
-                >
-                  <DropdownMenuItem
-                    v-for="locale in locales"
-                    :key="locale.code"
-                    class="cursor-pointer"
-                    @click="setLocale(locale.code)"
-                  >
-                    <span class="mr-1">{{ locale.emoji }}</span>
-                    {{ locale.name }}
-                  </DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
 
               <DropdownMenu>
                 <DropdownMenuTrigger as-child>
