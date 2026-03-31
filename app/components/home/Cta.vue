@@ -12,15 +12,7 @@ const { github } = useAppConfig()
         "
       >
         <div class="text-center">
-          <h2
-            class="text-3xl font-semibold text-balance"
-          >
-            {{ $t('home.cta.title') }}
-          </h2>
-          <p class="mt-4 text-muted-foreground">
-            {{ $t('home.cta.description') }}
-          </p>
-
+          
           <div class="mt-8 flex flex-wrap justify-center gap-4">
 
             <Button
