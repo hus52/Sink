@@ -18,8 +18,8 @@ const hostname = computed<string>(() => {
 })
 
 const user = computed<User>(() => ({
-  name: 'Root',
-  email: `root@${hostname.value}`,
+  name: 'AVS',
+  email: `avs@${hostname.value}`,
   avatar: '/sink.png',
 }))
 
