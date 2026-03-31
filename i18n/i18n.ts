@@ -1,4 +1,4 @@
-import type { LocaleObject } from '@nuxtjs/i18n'
+import type { LocaleObject } from './i18n'
 
 const locales: LocaleObject[] = [
   {
