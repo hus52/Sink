@@ -36,14 +36,14 @@
   },
   "layouts": {
     "footer": {
-      "copyright": "Products of HTML.ZONE",
+      "copyright": "",
       "social": {
         "email": "Email",
-        "telegram": "Telegram",
+        "telegram": "",
         "blog": "Blog",
-        "twitter": "Twitter",
-        "mastodon": "Mastodon",
-        "github": "GitHub"
+        "twitter": "",
+        "mastodon": "",
+        "github": ""
       }
     },
     "header": {
@@ -62,14 +62,14 @@
     "settings": "Settings",
     "import": "Import",
     "export": "Export",
-    "coffee": "Buy me a coffee",
-    "github": "GitHub",
+    "coffee": "",
+    "github": "",
     "stars": "Stars",
     "update": "New version {version} available (current: {current})"
   },
   "home": {
     "hero": {
-      "github_repo": "GitHub Repo"
+      "github_repo": ""
     },
     "features": {
       "title": "Features",
@@ -314,3 +314,4 @@
     }
   }
 }
+f
